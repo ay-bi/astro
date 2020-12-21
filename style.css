@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      }
+  body {
+      
+      font-family: "NoirRegular";
+      background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  @font-face{
+    font-family: "NoirRegular";
+    src:url("NoirStd-Regular.ttf");
+  
+  }
+  
+  @font-face{
+    font-family: "NoirBold";
+    src:url("NoirPro-Bold.ttf");
+  
+  }
+ 
+  
+  header {
+    
+    background-color: black;
+    background-size:cover;
+    font-family: "NoirRegular"; 
+    background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+  }
+
+  .box input{
+align-items: center;
+justify-content: center;
+background-color:rgb(120, 9, 211);
+    width:200px;
+    height:50px;
+    text-align:center;
+    border:2px;
+    border-style: solid;
+    color:white;
+    font-size: 20px;
+    border-radius:23px;
+    border-color:white;
+    box-shadow: 0 0 15px #e4197e;}
+ 
+    .box h1{
+      font-style: ;
+     text-align: center;
+     font-size:58px;
+     color:rgb(250, 232, 247);
+     text-shadow: 0 0 10px #e994c5;
+     font-style: "NoirRegular";
+    }
+     
+
+
+ }   
+ .box h2{
+    text-align: center;
+    font-size:40px;
+    color:whitesmoke;
+    font-style: "NoirRegular";
+    
+}   
+
+
+.home{
+  size:300px;
+width: 300px;
+float: right;
+padding-left: 0px;
+}
